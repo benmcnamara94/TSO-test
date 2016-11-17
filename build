@@ -10,7 +10,7 @@ while [ "$count" -lt 10 ]; do
 
 	colour_code = $((31 + (count % 7)))
 
-	printf "\e[01;$(colour_code)mBuilding file [$count of 10]\e[00m\n"
+	printf "Building file $count of 10\n"
 
 done
 
