@@ -2,16 +2,17 @@
 
 echo "we are now simulating a code build"
 
-count = 0
+count=0
 
 while [ "$count" -lt 10 ]; do
 
-	count = $(count + 1)
+	count=$((count + 1))
 
-	colour_code = $((31 + (count % 7)))
+	colour_code=$((31 + (count % 7)))
 
 	printf "Building file $count of 10\n"
 
+	sleep 1
 done
 
 cat >my-artifact.html <<EOF
