@@ -12,6 +12,8 @@ while [ "$count" -lt 10 ]; do
 
 	printf "Building file $count of 10\n"
 
+	printf "Made a novel change to show in the bloody demo"
+
 	sleep 1
 done
 
