@@ -6,7 +6,7 @@ count = 0
 
 while [ "$count" -lt 10 ]; do
 
-	count = $((count + 1)
+	count = $(count + 1)
 
 	colour_code = $((31 + (count % 7)))
 
